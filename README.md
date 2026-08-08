@@ -1,19 +1,63 @@
-![logo](https://github.com/anmolgarg848/GithubPortfolio/blob/main/Cover.png)
-<h1 align="center">Hi 👋, I'm Anmol Garg</h1>
-<h4 align="center">I am a passionate Data Engineer with over 3 years of experience turning raw data into meaningful insights. I work with modern tools like Azure Data Factory, Databricks, Azure Synapse Analytics, Delta Lake, and the Data Lakehouse to build efficient data pipelines and solutions in the cloud as well as expertise in on-premises open-source technologies. I’m also a Databricks Certified Data Engineer and a Microsoft Certified Azure Data Engineer. I love learning and continuously improving my skills to stay up-to-date with the latest in the field.</h4>
+# Anmol Garg
 
-<img align="right" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:679/1*zVnWJtyGOX_kUIDm6ccCfQ.gif">
+AI Data Engineer at EXL Analytics (FinTech), Mumbai. Previously Data Engineer at Jio Platforms / Reliance Intelligence.
 
+I build data infrastructure that has to stay correct under load — high-throughput streaming ingestion, lakehouse platforms, and LLM systems in production.
 
-- 🔭 I’m a **Data Engineer**
+**[anmolgarg.dev](https://www.anmolgarg.dev)** · [LinkedIn](https://www.linkedin.com/in/anmol-garg-a98998173/) · [anmolgarg848@gmail.com](mailto:anmolgarg848@gmail.com)
 
-- 👨‍💻 Ask me about **Cloud Data Engineering**
+---
 
-- 💬 LinkedIn **https://www.linkedin.com/in/anmol-garg-a98998173/**
+## Now — AI Data Engineer, EXL Analytics (Mar 2025 – present)
 
+- Designed a **multi-agent Root-Cause-Analysis platform** on Databricks — LangGraph, LangChain, Claude, Milvus vector store, NL2SQL over Unity Catalog. RCA went from hours to **under 5 minutes**.
+- Built production RAG pipelines over **1 TB** of financial data.
+- Served Llama 3.3 70B on vLLM handling **128 concurrent requests**.
+- SBERT-based semantic ranking.
 
+## Before — Data Engineer, Jio Platforms / Reliance Intelligence (Dec 2023 – Mar 2025)
 
+- Architected real-time ingestion for Jio AirFiber: Kafka + Spark + Iceberg/Delta at **1.2 billion records per hour**.
+- Built a metadata-driven Databricks/Azure data platform for Jio Financial Services — cut ad-hoc pipeline development time by **90%**.
+- Prometheus + Grafana monitoring; reduced MTTD by **90%**.
+- Migrated **28 streaming jobs** from Azure Synapse to on-premises.
+- Debezium CDC into Apache Druid.
 
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> </p>
+## Stack
+
+`Python` `SQL` `Spark` `Kafka` `Databricks` `Delta Lake` `Apache Iceberg` `Apache Druid` `Unity Catalog` `Azure` `LangGraph` `LangChain` `vLLM` `Milvus` `SBERT` `NL2SQL` `Debezium` `Prometheus` `Grafana`
+
+---
+
+## Public repos
+
+Most of my production work lives in private and enterprise repositories. What's public here:
+
+| Repo | What it is |
+| --- | --- |
+| [rag-data-pipeline](https://github.com/anmolgarg848/rag-data-pipeline) | RAG data pipeline (Jupyter notebook) |
+| [Azure-Databricks-E2E-Pipeline](https://github.com/anmolgarg848/Azure-Databricks-E2E-Pipeline) | End-to-end pipeline on Databricks and Azure |
+| [JioSaavnMusicStoreDataAnalysis](https://github.com/anmolgarg848/JioSaavnMusicStoreDataAnalysis) | Data modeling with dbdiagram |
+| [JioPlatformsHRInsightsAnalytics](https://github.com/anmolgarg848/JioPlatformsHRInsightsAnalytics) | Power BI dashboarding |
+| [DSA_leetcodeResources](https://github.com/anmolgarg848/DSA_leetcodeResources) | Data structures and algorithms solutions |
+
+---
+
+## Certifications
+
+- [Databricks Certified Data Engineer Professional](https://credentials.databricks.com/1aaedb62-1841-404b-a17c-a9083716d6ae#acc.ehRAlKJn)
+- [Microsoft Certified: Fabric Data Engineer Associate](https://learn.microsoft.com/en-us/users/anmolgarg-4911/credentials/4d6d190c6ce66295)
+
+## Competitive programming
+
+[LeetCode](https://leetcode.com/u/anmolgarg848/) All-India Rank **1,122** (top 0.08%) · Codeforces Expert, peak 1617 · Google Kick Start All-India Rank **471**
+
+## Education
+
+B.Tech Electronics Engineering — Institute of Information Technology, Bhopal (RGPV), 2019–2023. CGPA 9.0/10.
+
+---
+
+[Website](https://www.anmolgarg.dev) · [LinkedIn](https://www.linkedin.com/in/anmol-garg-a98998173/) · [LeetCode](https://leetcode.com/u/anmolgarg848/) · [anmolgarg848@gmail.com](mailto:anmolgarg848@gmail.com)
