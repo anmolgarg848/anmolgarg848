@@ -1,5 +1,7 @@
 # Anmol Garg
 
+[![Anmol Garg — AI Data Engineer](assets/banner.jpg)](https://www.anmolgarg.dev)
+
 AI Data Engineer at EXL Analytics (FinTech), Mumbai. Previously Data Engineer at Jio Platforms / Reliance Intelligence.
 
 I build data infrastructure that has to stay correct under load — high-throughput streaming ingestion, lakehouse platforms, and LLM systems in production.
