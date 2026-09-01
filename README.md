@@ -2,7 +2,7 @@
 
 [![Anmol Garg — AI Data Engineer](assets/banner.jpg)](https://www.anmolgarg.dev)
 
-AI Data Engineer at EXL Analytics (FinTech), Mumbai. Previously Data Engineer at Jio Platforms / Reliance Intelligence.
+AI Data Engineer at EXL Analytics (FinTech), Mumbai. Previously Data Engineer on the Data Platforms team at Jio Platforms Limited.
 
 I build data infrastructure that has to stay correct under load — high-throughput streaming ingestion, lakehouse platforms, and LLM systems in production.
 
@@ -13,23 +13,24 @@ I build data infrastructure that has to stay correct under load — high-through
 ## Now — AI Data Engineer, EXL Analytics (Mar 2025 – present)
 
 - Designed a **multi-agent Root-Cause-Analysis platform** on Databricks — LangGraph, LangChain, Claude, Milvus vector store, NL2SQL over Unity Catalog. RCA went from hours to **under 5 minutes**.
+- Built a **real-time fraud detection and risk-scoring platform** on Kafka and Spark Structured Streaming — XGBoost/LightGBM scoring, time-based splits to prevent leakage, SHAP attributions for investigators.
+- Added a **RAG investigation layer** over past cases, notes and policies — hybrid retrieval with re-ranking — drafting case summaries for fraud analysts.
 - Built production RAG pipelines over **1 TB** of financial data.
 - Served Llama 3.3 70B on vLLM handling **128 concurrent requests**.
 - SBERT-based semantic ranking.
 
-## Before — Data Engineer, Jio Platforms / Reliance Intelligence (Dec 2023 – Mar 2025)
+## Before — Data Engineer, Data Platforms Team, Jio Platforms Limited (Dec 2023 – Mar 2025)
 
-- Architected real-time ingestion for Jio AirFiber: Kafka + Spark + Iceberg/Delta at **1.2 billion records per hour**.
-- Built a metadata-driven Databricks/Azure data platform for Jio Financial Services — cut ad-hoc pipeline development time by **90%**.
-- Prometheus + Grafana monitoring; reduced MTTD by **90%**.
-- Migrated **28 streaming jobs** from Azure Synapse to on-premises.
-- Debezium CDC into Apache Druid.
+- Built a **Spark and Kafka streaming framework** on Hadoop for JioFiber's MyJio app, processing **1 TB of device data** to power self-diagnosis of connectivity, Wi-Fi and set-top box issues.
+- Developed and optimized **real-time and batch pipelines** in Spark, Scala and Kafka on Azure, against stakeholder-defined KPIs.
+- Designed an **end-to-end ETL pipeline for preemptive alarm generation** for Jio AirFiber, detecting outages at varying geographic levels with Azure HDInsight, Traffic Manager and Application Gateway over an on-premise Hadoop data lake and Oracle — cut outage detection time by **30%**.
+- Built scalable **Spark and Hive pipelines** processing **500+ GB/day** for the Network Experience Platform, with Prometheus/Grafana monitoring across Kafka consumer lag and job health.
 
 ---
 
 ## Stack
 
-`Python` `SQL` `Spark` `Kafka` `Databricks` `Delta Lake` `Apache Iceberg` `Apache Druid` `Unity Catalog` `Azure` `LangGraph` `LangChain` `vLLM` `Milvus` `SBERT` `NL2SQL` `Debezium` `Prometheus` `Grafana`
+`Python` `SQL` `Scala` `Spark` `Kafka` `Hadoop` `Hive` `Databricks` `Delta Lake` `Azure` `XGBoost` `LightGBM` `MLflow` `Airflow` `LangGraph` `LangChain` `vLLM` `Milvus` `SBERT` `SHAP` `Prometheus` `Grafana`
 
 ---
 
