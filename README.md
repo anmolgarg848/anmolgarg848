@@ -2,7 +2,7 @@
 
 [![Anmol Garg — AI Data Engineer](assets/banner.jpg)](https://www.anmolgarg.dev)
 
-AI Data Engineer at EXL Analytics (FinTech), Mumbai. Previously Data Engineer on the Data Platforms team at Jio Platforms Limited.
+Software Development Engineer I, Data Engineering at EXL Analytics, Mumbai. Previously Data Engineer on the Data Platforms team at Jio Platforms Limited.
 
 I build data infrastructure that has to stay correct under load — high-throughput streaming ingestion, lakehouse platforms, and LLM systems in production.
 
@@ -10,14 +10,12 @@ I build data infrastructure that has to stay correct under load — high-through
 
 ---
 
-## Now — AI Data Engineer, EXL Analytics (Mar 2025 – present)
+## Now — Software Development Engineer I, Data Engineering, EXL Analytics (Mar 2025 – present)
 
-- Designed a **multi-agent Root-Cause-Analysis platform** on Databricks — LangGraph, LangChain, Claude, Milvus vector store, NL2SQL over Unity Catalog. RCA went from hours to **under 5 minutes**.
-- Built a **real-time fraud detection and risk-scoring platform** on Kafka and Spark Structured Streaming — XGBoost/LightGBM scoring, time-based splits to prevent leakage, SHAP attributions for investigators.
-- Added a **RAG investigation layer** over past cases, notes and policies — hybrid retrieval with re-ranking — drafting case summaries for fraud analysts.
-- Built production RAG pipelines over **1 TB** of financial data.
-- Served Llama 3.3 70B on vLLM handling **128 concurrent requests**.
-- SBERT-based semantic ranking.
+- Built **real-time event collection and ingestion** on a highly scalable pipeline: PostgreSQL change data captured via **Debezium CDC** into Kafka, processed with **Spark Structured Streaming** and **Apache Flink** across batch and streaming workloads.
+- Developed pipelines supporting **AI model training and autonomous agents** — feature engineering, embedding generation, vector retrieval on **Milvus** — and operated **MCP servers** exposing governed datasets and tools for LLM access.
+- Implemented **ETL/ELT pipelines** orchestrated with **Airflow** over Delta Lake and Databricks, under code review, Git and CI/CD.
+- Contributed to **data governance, observability and quality**, and implemented performance optimizations for ingestion, storage and processing in production.
 
 ## Before — Data Engineer, Data Platforms Team, Jio Platforms Limited (Dec 2023 – Mar 2025)
 
@@ -30,7 +28,7 @@ I build data infrastructure that has to stay correct under load — high-through
 
 ## Stack
 
-`Python` `SQL` `Scala` `Spark` `Kafka` `Hadoop` `Hive` `Databricks` `Delta Lake` `Azure` `XGBoost` `LightGBM` `MLflow` `Airflow` `LangGraph` `LangChain` `vLLM` `Milvus` `SBERT` `SHAP` `Prometheus` `Grafana`
+`Python` `SQL` `Scala` `Spark` `Flink` `Kafka` `Debezium` `Hadoop` `Hive` `Databricks` `Delta Lake` `Airflow` `Milvus` `MCP` `PostgreSQL` `Azure` `Prometheus` `Grafana`
 
 ---
 
