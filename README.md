@@ -28,7 +28,7 @@ I build data infrastructure that has to stay correct under load — high-through
 
 ## Stack
 
-`Python` `SQL` `Scala` `Spark` `Flink` `Kafka` `Debezium` `Hadoop` `Hive` `Databricks` `Delta Lake` `Airflow` `Milvus` `MCP` `PostgreSQL` `Azure` `Prometheus` `Grafana`
+`Python` `SQL` `Scala` `Spark` `Flink` `Kafka` `Debezium` `Hadoop` `Hive` `Databricks` `Delta Lake` `Airflow` `Milvus` `MCP` `PostgreSQL` `AWS` `Azure` `Prometheus` `Grafana`
 
 ---
 
@@ -50,6 +50,7 @@ Most of my production work lives in private and enterprise repositories. What's 
 
 - [Databricks Certified Data Engineer Professional](https://credentials.databricks.com/1aaedb62-1841-404b-a17c-a9083716d6ae#acc.ehRAlKJn)
 - [Databricks Certified Generative AI Engineer Associate](https://credentials.databricks.com/56ad57da-2a84-4c34-8e9c-fc651f0910f4#acc.qliup8Hv)
+- [AWS Certified Data Engineer – Associate](https://www.credly.com/badges/afe4416c-5087-4152-8267-b74b9cedb78b)
 - [Microsoft Certified: Fabric Data Engineer Associate](https://learn.microsoft.com/en-us/users/anmolgarg-4911/credentials/4d6d190c6ce66295)
 
 ## Competitive programming
